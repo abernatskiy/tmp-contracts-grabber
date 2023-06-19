@@ -15,8 +15,7 @@ export const processor = new EvmBatchProcessor()
     })
     .setFields({
         trace: {
-            createResultAddress: true,
-//            createResultCode: true,
+            createResultGasUsed: true
         },
     })
     .addTrace({
