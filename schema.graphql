@@ -1,0 +1,8 @@
+type CreatedContract @entity {
+  id: ID! # duplicate of address
+#  block: Int! @index
+#  timestamp: DateTime! @index
+#  address: String! @index
+#  code: String!
+#  txHash: String @index
+}
